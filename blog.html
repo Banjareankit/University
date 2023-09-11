@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University website - navendra</title>
+  <link rel="stylesheet" href="style_seet.css">
+ 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3a6b1df0a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png" alt="logo Image"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()" ></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </nav>
+    <h1>Our Certficates & Online Progroms For 2022 </h1>
+  </section>
+
+<!----------blog page content-=------->
+<section class="blog-content">
+
+  <div class="row">
+    <div class="blog-left">
+      <img src="images/certificate.jpg" alt="">
+      <h2>Our Certficates & Online Progroms For 2022 </h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex consequatur deleniti sed reprehenderit dolore. Necessitatibus ut ullam vitae deserunt dolorum alias, natus, nulla possimus voluptates magnam asperiores esse, dolorem itaque!</p>
+      <br>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, quas! Dolorem, sed quos! Ducimus natus totam qui quaerat maiores! Explicabo natus eligendi veritatis expedita fugiat aspernatur cumque aliquid fuga velit.</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, exercitationem doloremque odio dolorem illum aperiam repudiandae ad libero, aliquid ex eius laudantium explicabo. Vel officia doloribus impedit dolore eligendi ad.</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+       <div class="comment-box">
+         <h3>Leave a comment</h3>
+         <form class="comment-form">
+           <input type="text" placeholder="Enter name">
+           <input type="email" placeholder="Enter email">
+           <textarea rows="5" placeholder="Your comment"></textarea>
+           <button type="submit" class="hero-btn red-btn">POST COMMENT </button>
+         </form>
+       </div>
+
+
+    </div>
+    <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>22</span>
+        </div>
+        <div>
+          <span>Data Science</span>
+          <span>20</span>
+        </div>
+        <div>
+          <span>Machine Learning</span>
+          <span>45</span>
+        </div>
+        <div>
+          <span>Computer Science</span>
+          <span>54</span>
+        </div>
+        <div>
+          <span>AutoCAD</span>
+          <span>43</span>
+        </div>
+        <div>
+          <span>Journalism</span>
+          <span>24</span>
+        </div>
+        <div>
+          <span>Commerce</span>
+          <span>33</span>
+        </div>
+    </div>
+
+  </div>
+</section>
+   
+  <!--------footer---------->
+
+
+  <section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae aperiam quam corrupti aliquam sit eos officia est explicabo qui <br> necessitatibus, dolores id vel enim nisi a? In optio minus sit!</p>
+     <div class="icon">
+      <i class="fa fa-facebook-f"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+     </div>
+     <p class="text-footer">
+       copyright &copy; Allright reserved <br> www.university.com </p>
+  </section>
+
+<!------- Javascript for Toggle menu------->
+<script>
+   var navLinks = document.getElementById("navLinks");
+   function showMenu(){
+     navLinks.style.right = "0";
+   }
+   function hideMenu(){
+     navLinks.style.right = "-200px";
+   }
+</script>
+</body>
+</html>
